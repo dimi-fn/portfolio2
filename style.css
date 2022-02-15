@@ -1,0 +1,42 @@
+section{
+    /*
+    - 4 sections in total: 'view-height' section, 2nd, 3rd, 4rth
+    */
+    height: 500px;
+    background-color: yellow;
+    border: solid black 1px;
+}
+
+.view-height{ 
+    /* CSS for the 1st section. This overrides the CSS of 'section'*/
+    background-color:   #3b3b3b;   /* #1c1d25;*/
+    height: 100vh; /* 100% of the view height*/
+    color: white;
+    font-size: 40px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between; /* This sends the about me, projects, and contact to the right*/
+}
+
+ul{
+    display: flex;
+    list-style-type: none; /* It removes the bullet points*/
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li{
+    /*width: 200px;*/
+    text-decoration: none;
+}
+
+
+footer{ /*i.e. the 4rth section*/
+    height: 500px;
+    background-color: black;
+}
+
