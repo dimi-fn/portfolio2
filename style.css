@@ -1,3 +1,9 @@
+body{
+    /*CSS for font: it applies everywhere since it is in the body*/
+    /*Google font: Oxygen, fallback: sans-serif*/
+    font-family: 'Oxygen', sans-serif;
+}
+
 section{
     /*
     - 4 sections in total: 'view-height' section, 2nd, 3rd, 4rth
@@ -15,6 +21,10 @@ section{
     font-size: 40px;
 }
 
+footer{ /*i.e. the 4rth section*/
+    height: 500px;
+    background-color: black;
+}
 
 nav{
     display: flex;
@@ -34,9 +44,43 @@ li{
     text-decoration: none;
 }
 
-
-footer{ /*i.e. the 4rth section*/
-    height: 500px;
-    background-color: black;
+h1{
+    font-size: 60px;
+    margin: 0; /* Without this, the 1st h1 would go belower*/
 }
+
+p{
+    font-size: 24px;
+    font-weight: 300;
+    /* margin: 0;  Without this, the 1st p tag would go belower */
+}
+
+.view-height-area{
+    display: flex; /* flex based on the imminent browser*/
+    flex-direction: column; /* https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
+    height: 65%;
+    justify-content: center;
+}
+
+.view-height-text{
+    /* this creates a margin to left, i.e. it moves the elements to the right
+    * applies to the text at 1st section
+    */
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.button{
+    /* CSS for customized button */
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 15px;
+    margin-top: 25px; /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss_margin-top */
+}
+
 
