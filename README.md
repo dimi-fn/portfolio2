@@ -14,3 +14,8 @@ Building my portfolio and viewing it on [Netlify](https://modest-mcnulty-d09780.
 
 * dev3:
     * added font, button for about me, and divs
+
+
+## Credits
+
+Thanks to Ania Kubow for the teaching: [youtube link](https://www.youtube.com/watch?v=-D6oTPA4vXc&ab_channel=CodewithAniaKub%C3%B3w)

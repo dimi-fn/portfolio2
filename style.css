@@ -28,7 +28,7 @@ footer{ /*i.e. the 4rth section*/
 
 nav{
     display: flex;
-    justify-content: space-between; /* This sends the about me, projects, and contact to the right*/
+    justify-content: space-between; /* This sends the "about me", "projects", and "contact" to the right*/
 }
 
 ul{
@@ -83,4 +83,13 @@ p{
     margin-top: 25px; /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss_margin-top */
 }
 
+.button:hover{
+    /* CSS for when hovering the button*/
+    background-color: #ef744b;
+}
 
+.button:active{
+    /* CSS of button for when it is clicked*/
+    background-color: #A9A9A9;
+    color: #808080;
+}
