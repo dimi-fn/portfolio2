@@ -16,6 +16,7 @@ Building my portfolio and viewing it on [Netlify](https://modest-mcnulty-d09780.
     * added font, button for about me, and divs
 
 * dev4:    
+    * added social media
 
 
 ## Credits
