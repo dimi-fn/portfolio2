@@ -1,6 +1,8 @@
-# Portfolio: Dimitris Fanis
+# Personal Portfolio
 
-Building my portfolio and viewing it on [Netlify](https://modest-mcnulty-d09780.netlify.app/)
+This is a project in which I'm building my personal portfolio.
+
+It can currently be viewed on [Netlify](https://modest-mcnulty-d09780.netlify.app/).
 
 ## Branches
 
@@ -18,7 +20,5 @@ Building my portfolio and viewing it on [Netlify](https://modest-mcnulty-d09780.
 * dev4:    
     * added social media
 
-
-## Credits
-
-Thanks to Ania Kubow for the teaching: [youtube link](https://www.youtube.com/watch?v=-D6oTPA4vXc&ab_channel=CodewithAniaKub%C3%B3w)
+* dev5:
+    *     
