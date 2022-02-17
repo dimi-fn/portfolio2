@@ -8,8 +8,8 @@ section{
     /*
     - 4 sections in total: 'view-height' section, 2nd, 3rd, 4rth
     */
-    height: 500px;
-    background-color: yellow;
+    /*height: 500px;*/
+    background-color: white;
     border: solid black 1px;
 }
 
@@ -47,6 +47,10 @@ li{
 h1{
     font-size: 60px;
     margin: 0; /* Without this, the 1st h1 would go belower*/
+}
+
+h2{
+    font-size: 50px;
 }
 
 p{
@@ -109,4 +113,69 @@ p{
 
 .social{
     margin: 20px;
+}
+
+.section-about-me{
+    display: flex;
+    justify-content:space-between;
+    padding: 80px;
+}
+
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot{
+    width: 300px;
+    border-radius: 50%; 
+    border-style: solid;
+    /*border-color: green;*/
+    /* border-width: 10px;*/
+}
+
+.headshot-container{
+    display:flex; /* responsiveness on mobile*/
+    align-items: center;  /* responsiveness on mobile*/
+}
+
+.project-card{
+    width: 300px;
+    height: 500px;
+    /*border: 1px solid black;*/
+    box-shadow: 5px 5px 20px rgb(87, 85, 85);
+    margin: 10px; /*the distance between cards*/
+}
+
+.project-container{
+    display: flex; /*display the project cards one next to the other*/
+    justify-content: space-around;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.project-image{
+    width: 250px;
+    border-radius: 125px;
+    margin-top: 25;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #cecb11;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
