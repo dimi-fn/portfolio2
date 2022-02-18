@@ -21,4 +21,5 @@ It can currently be viewed on [Netlify](https://modest-mcnulty-d09780.netlify.ap
     * added social media
 
 * dev5:
-    *     
+    * added bootstrap for css of the contact form along with formspree.io for sending the emails
+    * added hamburger menu
