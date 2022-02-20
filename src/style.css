@@ -120,6 +120,7 @@ p{
 
 .socials{
     padding-bottom: 444px;
+    
 }
 
 .logo{
@@ -238,7 +239,7 @@ a{
     }
     
     .hamburger::after{
-        content:"Menu";
+        content:"Menu"; /* write 'Menu' when toggling hamburgen in mobile edition*/
     }
 
     ul {
@@ -263,3 +264,8 @@ a{
     
 }
 /*********** CSS when mobile phone*****************************/
+
+.social-icons:hover{
+    transition: all 0.1s;
+    transform:scale(1.25); 
+}
