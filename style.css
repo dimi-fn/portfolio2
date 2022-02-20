@@ -82,7 +82,7 @@ p{
     display: flex; /* flex based on the imminent browser*/
     /*flex-direction: column; /* https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     height: 100%;
-    justify-content: space-around; /*justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 
