@@ -42,6 +42,7 @@ footer{ /*i.e. the 4rth section*/
 nav{
     display: flex;
     justify-content: space-between; /* This sends the "about me", "projects", and "contact" to the right*/
+    padding-right: 10px;
 }
 
 ul{
@@ -67,7 +68,6 @@ h2{
 }
 
 p{
-    margin: 0;
     font-size: 24px;
     font-weight: 300;
     margin: 0;  /*Without this, the 1st p tag would go belower */
@@ -82,7 +82,7 @@ p{
     display: flex; /* flex based on the imminent browser*/
     /*flex-direction: column; /* https://www.w3schools.com/cssref/css3_pr_flex-direction.asp */
     height: 100%;
-    justify-content: space-between;
+    justify-content: space-around; /*justify-content: space-between; */
     align-items: center;
 }
 
@@ -128,13 +128,10 @@ p{
     margin: -20px;
     margin-top: -20px;
     margin-left: 10px;
-    
-    
     /*margin: 30px;
     width: 100px;
     height: 80px;
     */
-
 }
 
 .social{
@@ -169,7 +166,7 @@ p{
 }
 
 .project-card{
-    height: 500px;
+    height: 550px;
     width: 300px;
     /*border: 1px solid black;*/
     box-shadow: 5px 5px 20px rgb(87, 85, 85);
@@ -222,8 +219,8 @@ a{
 }
 
 .hamburger:focus{
-    /*outline: 0;  it removes the border around the hamburger button*/
-    outline: red;
+    outline: 0;  /*it removes the border around the hamburger button*/
+    
 }
 
 /*********** CSS when mobile phone*****************************/
