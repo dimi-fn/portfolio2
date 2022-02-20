@@ -120,7 +120,6 @@ p{
 
 .socials{
     padding-bottom: 444px;
-    
 }
 
 .logo{
@@ -223,7 +222,7 @@ a{
     
 }
 
-/*********** CSS when mobile phone*****************************/
+/*********** CSS for mobile phone*****************************/
 @media only screen and (max-width: 1000px){
     .hamburger{
         display: block;
@@ -260,7 +259,7 @@ a{
     }
     
 }
-/*********** CSS when mobile phone*****************************/
+/*********** CSS for mobile phone*****************************/
 
 .social-icons:hover{
     transition: all 0.1s;
