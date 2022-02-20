@@ -2,6 +2,7 @@ body{
     /*CSS for font: it applies everywhere since it is in the body*/
     /*Google font: Oxygen, fallback: sans-serif*/
     font-family: 'Oxygen', sans-serif;
+    margin: 0;
 }
 
 section{
@@ -23,12 +24,12 @@ section{
 
 footer{ /*i.e. the 4rth section*/
     height: 650px;
-    /*background-color: #eedfca;*/
     background-color:chocolate;
     padding: 80px;
     margin-top: 0px;
     margin-bottom: -550px;
     padding-block: 30px;
+    /*text-align: center;*/
 }
 
 nav{
@@ -59,9 +60,15 @@ h2{
 }
 
 p{
+    margin: 0;
     font-size: 24px;
     font-weight: 300;
     /* margin: 0;  Without this, the 1st p tag would go belower */
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .view-height-area{
@@ -106,14 +113,16 @@ p{
 
 .socials{
     padding-bottom: 444px;
-    fill: #ffffff;
 }
 
 .logo{
-    height: 240px;
+    /*height: 240px;
     margin: -20px;
     margin-top: -60px;
-    margin-left: 10px;
+    margin-left: 10px;*/
+    height: 80px;
+    margin: 30px;
+
 }
 
 .social{
@@ -131,6 +140,7 @@ p{
     flex-direction: column;
     text-align: center;
     padding: 80px;
+    height:100vh;
 }
 
 .headshot{
@@ -149,18 +159,25 @@ p{
 
 .project-card{
     width: 300px;
-    height: 500px;
+    
     /*border: 1px solid black;*/
     box-shadow: 5px 5px 20px rgb(87, 85, 85);
+    /*box-shadow: 5px 5px 20px rgb(197, 195, 195);*/
     margin: 10px; /*the distance between cards*/
+    /*transition: all 0.3s;*/
 }
+.project-card:hover{
+    transition: all 0.3s;
+    transform:scale(1.1);
+}
+
 
 .project-container{
     display: flex; /*display the project cards one next to the other*/
     justify-content: space-around;
 }
 
-/* responsiveness of project's section*/
+/* responsiveness of project's section about the project cards*/
 @media only screen and (max-width: 1000px) {
     /* under 1000px it applies the following:*/
     .project-container {
@@ -169,15 +186,10 @@ p{
     }  
 }
 
-.subtext{
-    font-size: 15px;
-    font-weight: 300;
-}
-
 .project-image{
     width: 250px;
     border-radius: 125px;
-    margin-top: 25;
+    margin-top: 25px;
 }
 
 .hr-projects {
@@ -200,7 +212,8 @@ a{
 }
 
 .hamburger:focus{
-    outline: 0; /* it removes the border around the hamburger button*/
+    /*outline: 0;  it removes the border around the hamburger button*/
+    outline: red;
 }
 
 @media only screen and (max-width: 1000px){
@@ -213,12 +226,15 @@ a{
         margin: 20px;
         align-self: flex-end;
     }
+    .hamburger::after{
+        content:"Menu";
+    }
 }
 
 ul {
     display: none;
     background-color: #2b2c38;
-    margin: 0px;
+    margin: 0px; /*get rid of extra spacing*/
 }
 
 ul.show{
