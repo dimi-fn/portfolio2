@@ -224,6 +224,7 @@ a{
 
 /*********** CSS for mobile phone*****************************/
 @media only screen and (max-width: 1000px){
+
     .hamburger{
         display: block;
         border:0;
@@ -233,10 +234,10 @@ a{
         margin: 20px;
         align-self: flex-end;
     }
-    
+
     .hamburger::after{
-        content:"Menu"; /* write 'Menu' when toggling hamburgen in mobile edition*/
-    }
+        content:"Menu"; /* write 'Menu' when toggling hamburger in mobile edition*/
+    }    
 
     ul {
         display: none;

@@ -1,11 +1,11 @@
 // <button class="hamburger" id="hamburger">
-const hamburgerButton = document.getElementById("hamburger") 
+const hamburgerButton = document.getElementById("hamburger"); 
 
-const navList = document.getElementById("nav-list") // <ul id="nav-list">
+const navList = document.getElementById("nav-list"); // <ul id="nav-list">
 
 function toggleButton(){
     navList.classList.toggle("show")
-}
+};
 
 /* Without async function and without time delay for the message "Sending..."*/
 // // Contact Form Validation 
