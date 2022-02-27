@@ -47,6 +47,7 @@ function toggleButton(){
 
 // Using asynchronous function in order to use the setTimeout function before "submit"
 const validateForm = async() =>{
+        document.querySelector('.status').style.color = "red";
         var name =  document.getElementById('name').value;
         if (name == "") {
             document.querySelector('.status').innerHTML = "Name cannot be empty!";
@@ -75,6 +76,8 @@ const validateForm = async() =>{
         }
         
         document.querySelector('.status').innerHTML = "Sending...";
+        document.querySelector('.status').style.color  = "black";
+        document.querySelector('.status').style.fontWeight  = "bold";
        
         // wait 1000ms before submitting (in order to display the message "Sending")
         await new Promise(resolve => setTimeout(resolve, 1000)); 
