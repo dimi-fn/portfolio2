@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta name="description" content= "Welcome to Dimitris Fanis' main portfolio page. A showcase of his interests and projects around Data Science, Machine Learning, and Web Development."/> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <title>Dimitris Fanis | Portfolio</title>
         
         <!-- https://fonts.google.com/specimen/Oxygen?query=oxy#standard-styles -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <!--------------------------- https://fontawesome.com/ ------------------------------>
+        <!-- for the icon at the hamburger menu-->
+        <script src="https://kit.fontawesome.com/3fe4e3c921.js" crossorigin="anonymous"></script>
 
         <!----------------------- favicon ---------------------------------------->
         <link rel="shortcut icon" type="image/x-icon" href="src/img/business_portfolio.ico"/>
@@ -13,25 +23,10 @@
         <!-------------------------- Bootstrap (CSS only) ------------------------->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+        <!-------------------------------- CSS ------------------------------------------>
         <link rel="stylesheet" href="style.css">
 
-        <title>Dimitris Fanis | Portfolio</title>
-        
-        <meta charset="utf-8" />
-
-        <!--
-        <meta name="description" content= "Welcome to Dimitris Fanis' main portfolio page. A showcase of his interests and projects around Data Science, Machine Learning, and Web Development."/>   -->
-		<!-- page at proper scale on mobile devices -->
-        <!--
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
-        -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-        <!--------------------------- https://fontawesome.com/ ------------------------------>
-        <!-- for the hamburger menu-->
-        <script src="https://kit.fontawesome.com/3fe4e3c921.js" crossorigin="anonymous"></script>
-
-        <!-- JavaScript -->
+        <!-------------------------------- JavaScript ------------------------------------>
         <script defer src="script.js"></script>               
           
     </head>
@@ -42,20 +37,24 @@
         <section class="view-height">
             <!-- Set of navigation links-->
 
-            <nav>
-                <img class="logo" src="src/img/logo/DF-logos_transparent.png" alt="Dimitris Fanis' logo"/>
-                <ul id="nav-list"> <!-- for the <const navList = document.getElementById("nav-list")> -->
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact</a></li>
-                </ul>
-                <button class="hamburger" id="hamburger">
-                    <i class="fas fa-bars"></i>
-                </button>                    
-            </nav>
+            <header>
+                <nav>
+                    <img class="logo" src="src/img/logo/DF-logos_transparent.png" alt="Dimitris Fanis' logo"/>
+                    <ul id="nav-list"> <!-- for the <const navList = document.getElementById("nav-list")> -->
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                    </button>                    
+                </nav>
+            </header>
+
+            <main>
+            
 
             <h1>Work in progress...</h1>
-            
             
             <div class="view-height-area">
                 <div class="view-height-text">
@@ -80,9 +79,9 @@
                     <div class="social-icons"><a href="https://dimitrisfanis.medium.com/"  title="Medium" target="_blank" class="social">
                         <svg fill="#ffffff" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z"/></svg>
                     </a></div>    
-                </div>
-            </div>
-        </section>
+                </div> <!------ END: Socials ---------->
+            </div>     <!------ END: view-height-area -->
+        </section>     <!------ END: view-height ------>
 
         <!-------------- Section 2:  ------------->
         <section class="section-about-me" id="about-me">
@@ -99,19 +98,19 @@
         <section class="section-projects" id="projects">
             <h2>Projects</h2>
             <div class="project-container">
-
+            
                 <div class="project-card">
                     <img class="project-image" src="/src/img/projects/programming_data_science.jpeg" alt="A man in front of a computer with 3 monitors" />
                     <h3>Various Data Science Scripts</h3>
-                    <p class="subtext">A collection of coding scripts, notes, and mini-projects with reference to a series of Data Science subjects and programming concepts and foundations.<p>
+                    <p class="subtext">A collection of coding scripts, notes, and mini-projects with reference to a series of Data Science subjects and programming concepts and    foundations.<p>
                     <hr class="hr-projects">
                     <p class="subtext"><a class="project-link" href="https://github.com/dimi-fn/Various-Data-Science-Scripts" target="_blank">View here</a></p>
-                </div>
+                </div>                
 
                 <div class="project-card">
                     <img class="project-image" src="/src/img/projects/emotions1.jpeg" alt="various emojis icons" />
                     <h3>Emotion Recognition in Movie Synopses</h3>
-                    <p class="subtext">Sometimes, movies evoke strong and deep emotions to their viewers, and these emotions may vary. Is the notion of emotion correlated to users' watchlists? This is a Machine Learning project that automatically predicts a set of emotions and then tries to give an answer to that question.<p>
+                    <p class="subtext">Sometimes, movies evoke strong and deep emotions to their viewers, and these emotions may vary. Is the notion of emotion correlated to users' watchlists? This is a Machine Learning project that automatically predicts a set of emotions and then tries to give an answer to that question via statistical analysis.<p>
                     <hr class="hr-projects">
                     <p class="subtext"><a class="project-link" href="https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts" target="_blank">View here</a></p>
                 </div>
@@ -149,7 +148,7 @@
             -->	
 
             <!--Section: Contact v.2-->
-            <section class="mb-4">
+            <section class="mb-4 contact-form-padding">
 
                 <!--Section heading-->
                 <h2 class="h1-responsive font-weight-bold text-center my-4 ">Contact Me</h2>
@@ -157,7 +156,7 @@
                 <p class="text-center w-responsive mx-auto mb-5">
                     I'd be happy to receive your message! Please feel free to fill out the form below, and I will try to get back to you as soon as possible!
                 </p>
-                <div class="row">
+                <div class="row contact-form-center">
 
                     <!--Grid column-->
                     <div class="col-md-9 mb-md-0 mb-5">
@@ -171,7 +170,7 @@
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
                                         <input type="text" id="name" name="name" class="form-control">
-                                        <label for="name" class="">Your name</label>
+                                        <label for="name" class=""><span class="contact-form-text">Your name</span></label>
                                     </div>
                                 </div>
                                 <!--Grid column-->
@@ -180,7 +179,7 @@
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
                                         <input type="text" id="email" name="email" class="form-control">
-                                        <label for="email" class="">Your email</label>
+                                        <label for="email" class=""><span class="contact-form-text">Your email</span></label>
                                     </div>
                                 </div>
                                 <!--Grid column-->
@@ -193,7 +192,7 @@
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
                                         <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject of email...">
-                                        <label for="subject" class="">Subject</label>
+                                        <label for="subject" class=""><span class="contact-form-text">Subject</span></label>
                                     </div>
                                 </div>
                             </div>
@@ -207,7 +206,7 @@
 
                                     <div class="md-form">
                                         <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea" placeholder="Your message..."></textarea>
-                                        <label for="message">Message</label>
+                                        <label for="message"><span class="contact-form-text">Message</span></label>
                                     </div>
 
                                 </div>

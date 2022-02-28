@@ -30,11 +30,10 @@ section{
 }
 
 footer{ /*i.e. the 4rth section*/
-    height: 650px;
+    /* height: 650px; */
     background-color:chocolate;
     padding: 80px;
     margin-top: 0px;
-    margin-bottom: -550px;
     padding-block: 30px;
     /*text-align: center;*/
 }
@@ -190,7 +189,7 @@ p{
         flex-wrap: wrap;
     }  
 }
-/*********** CSS when mobile phone*****************************/
+/*********** (END) CSS when mobile phone*****************************/
 
 .project-image{
     width: 250px;
@@ -236,15 +235,16 @@ a{
     }
 
     .hamburger::after{
-        content:"Menu"; /* write 'Menu' when toggling hamburger in mobile edition*/
-    }    
-
+        content:"Menu"; /* write 'Menu' when mobile edition and hamburger menu gets activated*/
+    }
+         
     ul {
         display: none;
         background-color: #2b2c38;
         margin: 0px; /*get rid of extra spacing*/
     }
 
+    
     ul.show{
         display: block;
     }
@@ -260,9 +260,21 @@ a{
     }
     
 }
-/*********** CSS for mobile phone*****************************/
+/*********** (END) CSS for mobile phone*****************************/
 
 .social-icons:hover{
     transition: all 0.1s;
     transform:scale(1.25); 
+}
+
+.contact-form-center{
+    justify-content: center;
+}
+
+.contact-form-padding{
+    padding-bottom: 20px;
+}
+
+.contact-form-text{
+    font-weight: 600; 
 }

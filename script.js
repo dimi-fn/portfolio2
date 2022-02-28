@@ -1,7 +1,10 @@
 // <button class="hamburger" id="hamburger">
 const hamburgerButton = document.getElementById("hamburger"); 
+hamburgerButton.addEventListener("click" , toggleButton)
+//console.log(hamburgerButton);
 
 const navList = document.getElementById("nav-list"); // <ul id="nav-list">
+//console.log(navList);
 
 function toggleButton(){
     navList.classList.toggle("show")
