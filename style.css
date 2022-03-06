@@ -181,17 +181,6 @@ p{
     justify-content: space-around;
 }
 
-/*********** CSS when mobile phone*****************************/
-/* responsiveness of project's section about the project cards*/
-@media only screen and (max-width: 1000px) {
-    /* under 1000px it applies the following:*/
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }  
-}
-/*********** (END) CSS when mobile phone*****************************/
-
 .project-image{
     width: 250px;
     border-radius: 125px;
@@ -222,9 +211,35 @@ a{
     
 }
 
+.social-icons:hover{
+    transition: all 0.1s;
+    transform:scale(1.25); 
+}
+
+.contact-form-center{
+    justify-content: center;
+}
+
+.contact-form-padding:hover{
+    transition: all 0.1s;
+    transform:scale(1.05);
+}
+
+.contact-form-padding{
+    padding-bottom: 20px;
+}
+
+.contact-form-text{
+    font-weight: 600; 
+}
+
+/* ********************************************************** */
 /*********** CSS for mobile phone*****************************/
+/* ********************************************************** */
 @media only screen and (max-width: 1000px){
 
+
+    /******************* hamburger, nav, logo ****************************/
     .hamburger{
         display: block;
         border:0;
@@ -259,29 +274,77 @@ a{
     .logo{
         display: none;
     }
-    
+    /******************* (END) hamburger, nav, logo ****************************/
+
+    .view-height{
+        font-size: 15px;
+    }
+
+    footer{
+        padding: 10px;
+        padding-block: 10px;
+    }
+
+    ul{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .subtext{
+        font-size: 14px
+    }
+
+    .button{
+        width: 140px;
+        height: 50px;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .social{
+        margin-right: 10px;        
+    }
+
+    .social-icons{
+        padding-top: 15%;
+    }
+
+    .view-height-text{
+        margin-left: 40px;
+    }
+
+    .section-about-me{
+        padding: 40px;
+    }
+
+    .section-projects{
+        padding: 40px;
+    }
+
+    .headshot{
+        width: 150px;
+    }
+
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }  
+
+    .project-card{
+        margin: 20px; /*the distance between the cards*/
+    }   
 }
+/* **************************************************************** */
 /*********** (END) CSS for mobile phone*****************************/
-
-.social-icons:hover{
-    transition: all 0.1s;
-    transform:scale(1.25); 
-}
-
-.contact-form-center{
-    justify-content: center;
-}
-
-.contact-form-padding:hover{
-    transition: all 0.1s;
-    transform:scale(1.05);
-}
-
-.contact-form-padding{
-    padding-bottom: 20px;
-}
-
-.contact-form-text{
-    font-weight: 600; 
-}
-
+/* **************************************************************** */
