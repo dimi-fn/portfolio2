@@ -42,6 +42,7 @@ nav{
     display: flex;
     justify-content: space-between; /* This sends the "about me", "projects", and "contact" to the right*/
     padding-right: 10px;
+    
 }
 
 ul{
