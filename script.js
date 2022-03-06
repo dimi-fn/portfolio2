@@ -1,7 +1,7 @@
 /* applies for when screen has max-width: 1000px */
 const hamburgerButton = document.getElementById("hamburger"); // target the element
 const navList = document.getElementById("nav-list"); // target the element
-hamburgerButton.addEventListener("click" , toggleButton) // add the event listener
+hamburgerButton.addEventListener("click" , toggleButton) // add the event listener | toggleButton is the callback function
 
 function toggleButton(){ // the action of the event
     navList.classList.toggle("show")
