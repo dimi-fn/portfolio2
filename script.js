@@ -1,12 +1,9 @@
-// <button class="hamburger" id="hamburger">
-const hamburgerButton = document.getElementById("hamburger"); 
-hamburgerButton.addEventListener("click" , toggleButton)
-//console.log(hamburgerButton);
+/* applies for when screen has max-width: 1000px */
+const hamburgerButton = document.getElementById("hamburger"); // target the element
+const navList = document.getElementById("nav-list"); // target the element
+hamburgerButton.addEventListener("click" , toggleButton) // add the event listener
 
-const navList = document.getElementById("nav-list"); // <ul id="nav-list">
-//console.log(navList);
-
-function toggleButton(){
+function toggleButton(){ // the action of the event
     navList.classList.toggle("show")
 };
 
