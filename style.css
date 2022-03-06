@@ -24,7 +24,7 @@ section{
 
 footer{ /*i.e. the 4rth section*/
     /* height: 650px; */
-    background-color:chocolate;
+    background-color:rgb(212, 107, 32);
     padding: 80px;
     margin-top: 0px;
     padding-block: 30px;
@@ -47,8 +47,8 @@ ul{
 }
 
 li{
-    /*width: 200px;*/
-    /* text-decoration: none; */
+    width: 200px;
+    text-decoration: none; 
 }
 
 h1{
@@ -117,8 +117,9 @@ p{
 
 .logo{
     height: 200px;
-    margin: -20px;
-    margin-top: -20px;
+    width: 200px;
+    /* margin: -20px; */
+    margin-top: -45px;
     margin-left: 10px;
     /*margin: 30px;
     width: 100px;
@@ -193,6 +194,7 @@ p{
 a{
     text-decoration: none;
     color: white;
+    
 }
 
 .hamburger{
