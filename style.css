@@ -20,13 +20,6 @@ section{
     height: 100vh; /* 100% of the view height */
     color: white;
     font-size: 40px;
-    
-    /*
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 80px;
-    */
 }
 
 footer{ /*i.e. the 4rth section*/
@@ -55,7 +48,7 @@ ul{
 
 li{
     /*width: 200px;*/
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 h1{
@@ -231,6 +224,11 @@ a{
 
 .contact-form-text{
     font-weight: 600; 
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: rgb(177, 162, 162);
 }
 
 /* ********************************************************** */
