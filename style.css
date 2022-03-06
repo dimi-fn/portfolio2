@@ -272,6 +272,11 @@ a{
     justify-content: center;
 }
 
+.contact-form-padding:hover{
+    transition: all 0.1s;
+    transform:scale(1.05);
+}
+
 .contact-form-padding{
     padding-bottom: 20px;
 }
@@ -279,3 +284,4 @@ a{
 .contact-form-text{
     font-weight: 600; 
 }
+
