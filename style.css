@@ -245,7 +245,7 @@ a{
         border:0;
         background-color: transparent;
         color: white;
-        font-size: 30px;
+        font-size: 18px;
         margin: 20px;
         align-self: flex-end;
     }
@@ -286,7 +286,7 @@ a{
     }
 
     ul{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     h1{
@@ -308,7 +308,7 @@ a{
     .button{
         width: 140px;
         height: 50px;
-        font-size: 20px;
+        font-size: 18px;
         padding-top: 10px;
     }
 
@@ -344,6 +344,27 @@ a{
     .project-card{
         margin: 20px; /*the distance between the cards*/
     }   
+
+    .contact-form-padding:hover{
+        transition: all 0.1s;
+        transform:scale(1.02);
+    }
+
+    #nav-list{
+        padding-bottom: 5%;
+    }
+
+    .social-icons-phone{
+        width: 40px;
+        height: 40px;
+        margin: 3px;
+    }
+
+    .project-card h3{
+        font-size: 18px;
+    }
+   
+
 }
 /* **************************************************************** */
 /*********** (END) CSS for mobile phone*****************************/
