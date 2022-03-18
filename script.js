@@ -1,13 +1,30 @@
-/* applies for when screen has max-width: 1000px */
-const hamburgerButton = document.getElementById("hamburger"); // target the element
-const navList = document.getElementById("nav-list"); // target the element
-hamburgerButton.addEventListener("click" , toggleButton) // add the event listener | toggleButton is the callback function
+/************************ applies for when screen has max-width: 1000px ************************/
+// target the element
+const hamburgerButton = document.getElementById("hamburger"); 
 
-function toggleButton(){ // the action of the event
-    navList.classList.toggle("show")
+// target the element
+const navList = document.getElementById("nav-list"); 
+
+
+// add the event listener | toggleButton is the callback function
+hamburgerButton.addEventListener("click" , toggleButton) 
+
+// the action of the event
+function toggleButton(){ 
+    navList.classList.toggle("show");
+    // hamburgerButton.removeEventListener("click", toggleButton)
 };
 
-/* Input validation for contact form */
+/* The above two could be integrated with an arrow function:
+hamburgerButton.addEventListener("click", e=>{
+    navList.classList.toggle("show");
+}); 
+*/
+
+
+
+
+/************************ Input validation for contact form **************************/
 const validateForm = async() =>{
         document.querySelector('.status').style.color = "red";
         const name =  document.getElementById('name').value;
