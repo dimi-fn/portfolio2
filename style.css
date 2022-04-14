@@ -1,12 +1,11 @@
-html{
-    scroll-behavior:smooth;
-};
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Square+Peg&display=swap');
+
 
 body{
-    /*CSS for font: it applies everywhere since it is in the body*/
-    /*Google font: Oxygen, fallback: sans-serif*/
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Open Sans', sans-serif;    
+    /* font-size: x-small; */
     margin: 0;
+    
 }
 
 section{
@@ -16,6 +15,7 @@ section{
     /*height: 500px;*/
     background-color: white;
     border: solid black 1px;
+    
 }
 
 .view-height{ 
@@ -198,7 +198,12 @@ p{
 a{
     text-decoration: none;
     color: white;
-    
+}
+
+.a-normal{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
 }
 
 .hamburger{
